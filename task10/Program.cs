@@ -7,7 +7,7 @@
 
 int GetSecondNumber(int num)
 {
-    int result = (num - (num / 100) * 100 - num % 10) / 10;
+    int result = (num / 10) % 10;
     return result;
 }
 
